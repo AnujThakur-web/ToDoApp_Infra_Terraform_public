@@ -4,7 +4,7 @@
 # Sarkar... do aadmi the."
 
 # Gabbar Singh:
-# 👉 "Do aadmi...?"
+# 👉 "Do aadmi...?"git 
 # 👉 (taana marte hue) "Sardar mazaak kar raha hai!"
 # 👉 "Do aadmi the... aur tum teen... phir bhi wapas aa gaye?"
 # (Thoda pause, phir gusse mein):
