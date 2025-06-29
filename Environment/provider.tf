@@ -8,9 +8,6 @@
 # Ek din Sakeena ko pata chalta hai ke uske Abbu (Ashraf Ali) Pakistan mein zinda hain
 
 
-
-
-
 terraform {
   required_providers {
     azurerm = {
