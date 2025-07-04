@@ -4,10 +4,19 @@ module "azurerm_resource_group" {
   resource_group_location = "West US"
 }
 
+module "azurerm_resource_group2" {
+  source                  = "../Modules/azurerm_resource_group"
+  resource_group_name     = "todo_app_rg2"
+  resource_group_location = "West US"
+}
+
+
 module "azurerm_virtual_network" {
   depends_on           = [module.azurerm_resource_group]
   source               = "../Modules/azurerm_virtual_network"
   virtual_network_name = "todoapp_vnet"
+
+
   address_space        = ["10.0.0.0/16"]
   location             = "West US"
   resource_group_name  = "todo_app_rg"

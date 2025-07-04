@@ -9,3 +9,5 @@ resource "azurerm_resource_group" "RG" {
 #   name     = "todo_app_rg"
 #   location = "West US"
 # }
+
+
